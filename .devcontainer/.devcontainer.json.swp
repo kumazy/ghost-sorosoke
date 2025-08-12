@@ -1,0 +1,12 @@
+{
+  "name": "Ghost Dev",
+  "postCreateCommand": "npm install -g ghost-cli",
+  "postStartCommand": "cd ghost && ghost restart || ghost start",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "esbenp.prettier-vscode"
+      ]
+    }
+  }
+}
